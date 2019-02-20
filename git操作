@@ -1,0 +1,114 @@
+配置用户名:git config --global user.name "r00310556"
+配置邮箱:git config --global user.email "xiaoming@huawei.com"
+检查配置:git config -l
+生成公钥:ssh-keygen -t rsa -C "xiaoming@huawei.com"
+
+使用git bash提交、push代码
+
+	第一步：在本地项目根目录下，右键选择“git bash here”
+	第二步：查看当前代码的修改状态，执行命令：git status
+
+	第三步：将修改的文件提交到本地暂存区，执行命令：git add filename
+
+	或者将所有修改过的工作文件提交暂存区，执行命令： git add .
+
+	第四步：将暂存区的修改文件提交到本地git库中，执行命令：git commit后输入commit message，或者git commit -m "引号内输入commit message"
+
+	第五步：将提交的修改推送到远端，执行命令：git push origin master（例子中使用的是默认的远端origin，分支master）
+
+
+
+clone下来的都是全部分支并且默认为master分支,如果想要切换为其他远程分支
+git branch -a
+git checkout -b  br_CSPV100R019C10_master
+
+
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
+git pull：更新本地代码
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+使用Git下载指定分支命令为：git clone -b 分支名 仓库地址
+将新创建的分支推送到远端仓：git push origin 分支名
+
+
+
+
+
+
+
+
+命令：
+
+语法	功能说明
+git clone	克隆版本库
+git pull	拉回远程版本库的提交
+git push	推送至远程版本库
+git add	添加至暂存区
+git add–interactive	交互式添加
+git apply	应用补丁
+git am	应用邮件格式补丁
+git annotate	同义词，等同于 git blame
+git archive	文件归档打包
+git bisect	二分查找
+git blame	文件逐行追溯
+git branch	分支管理
+git cat-file	版本库对象研究工具
+git checkout	检出到工作区、切换或创建分支
+git cherry-pick	提交拣选
+git citool	图形化提交，相当于 git gui 命令
+git clean	清除工作区未跟踪文件
+git commit	提交
+git config	查询和修改配置
+git describe	通过里程碑直观地显示提交ID
+git diff	差异比较
+git difftool	调用图形化差异比较工具
+git fetch	获取远程版本库的提交
+git format-patch	创建邮件格式的补丁文件。参见 git am 命令
+git grep	文件内容搜索定位工具
+git gui	基于Tcl/Tk的图形化工具，侧重提交等操作
+git help	帮助
+git init	版本库初始化
+git init-db	同义词，等同于 git init
+git log	显示提交日志
+git merge	分支合并
+git mergetool	图形化冲突解决
+git mv	重命名
+git rebase	分支变基
+git rebase–interactive	交互式分支变基
+git reflog	分支等引用变更记录管理
+git remote	远程版本库管理
+git repo-config	同义词，等同于 git config
+git reset	重置改变分支“游标”指向
+git rev-parse	将各种引用表示法转换为哈希值等
+git revert	反转提交
+git rm	删除文件
+git show	显示各种类型的对象
+git stage	同义词，等同于 git add
+git stash	保存和恢复进度
+git status	显示工作区文件状态
+git tag	里程碑管理
+二、Git查看某个文件修改历史
+语法	功能说明
+git blame 文件名	显示文件的每一行是在那个版本最后修改。（这个厉害）
+git whatchanged 文件名	显示某个文件的每个版本提交信息：提交日期，提交人员，版本号，提交备注（没有修改细节）
+git show 7aee80cd2afe3202143f379ec671917bc86f9771（commit id）	显示某个版本的修改详情
+git log - -pretty=oneline	显示每个版本都修改了那些文件
+git log - -pretty=oneline 文件名	与上一样，不过每个修改版本都包含了
+git show 5aa1be6674ecf6c36a579521708bf6e5efb6795f 文件名	显示某个版本的某个文件修改情况
+
+
+
+
+
+
+
+
+
+
+
+
+
