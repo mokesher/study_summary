@@ -1,0 +1,246 @@
+1、文件权限 
+	d 目录。
+	l 符号链接(指向另一个文件)。
+	s 套接字文件。
+	b 块设备文件。
+	c 字符设备文件。
+	p 命名管道文件。
+	- 普通文件，或者更准确地说，不属于以上几种类型的文件。
+	
+	文件属主权限	组用户权限	其他用户权限
+		r w - 			r- - 		r—
+		
+	r 读权限	w 写/更改权限	x 执行该脚本或程序的权限
+	chmod [who] operator [permission] filename
+	chmod [mode] file	例：chmod 777 file(rwx rwx rwx)
+	八进制数含义
+	0 0 1 0 同组用户可执行
+	0 0 0 4 其他用户可读
+	0 0 0 2 其他用户可写
+	0 0 0 1 其他用户可执行
+
+	
+
+	
+2、标准输入、输出和错误
+	当我们在shell中执行命令的时候，每个进程都和三个打开的文件相联系，并使用文件描述符来引用这些文件。由于文件描述符不容易记忆， shell同时也给出了相应的文件名。
+	下面就是这些文件描述符及它们通常所对应的文件名：
+
+	文件文件描述符
+	输入文件—标准输入0
+	输出文件—标准输出1
+	错误输出文件—标准错误2
+	系统中实际上有1 2个文件描述符，但是正如我们在上表中所看到的， 0、1、2是标准输入、输出和错误。可以任意使用文件描述符3到9。	
+	
+	命令1 && 命令2
+		这种命令执行方式相当地直接。&&左边的命令（命令1）返回真(即返回0，成功被执行）后，&&右边的命令（命令2）才能够被执行；换句话说，“如果这个命令执行成功& &那么执行这个命令”。
+		
+	例子；$ mv /apps/bin /apps/dev/bin && rm -r /apps/bin
+	
+	命令1 || 命令2
+		| |的作用有一些不同。如果| |左边的命令（命令1）未执行成功，那么就执行| |右边的命令（命令2）；或者换句话说，“如果这个命令执行失败了|| 那么就执行这个命令”。
+			
+
+
+3、基本元字符集及其含义
+
+	^ 只只匹配行首
+	$ 只只匹配行尾
+	* 只一个单字符后紧跟*，匹配0个或多个此单字符
+	[ ] 只匹配[ ]内字符。可以是一个单字符，也可以是字符序列。可以使用-
+	表示[ ]内字符序列范围，如用[ 1 - 5 ]代替[ 1 2 3 4 5 ]
+	\ 只用来屏蔽一个元字符的特殊含义。因为有时在s h e l l中一些元字符有
+	特殊含义。\可以使其失去应有意义
+	. 只匹配任意单字符
+	p a t t e r n \ { n \ } 只用来匹配前面p a t t e r n出现次数。n为次数
+	p a t t e r n \ { n，\ } m 只含义同上，但次数最少为n
+	p a t t e r n \ { n，m \ } 只含义同上，但p a t t e r n出现次数在n与m之间
+	
+	
+4、特殊变量
+	Linux系统规定的特殊变量如下：
+	$0：存放正在执行程序的路径和文件名。
+	$#：存放传递给正在执行程序的参数个数。
+	$*：存放所有传递给正在执行程序的参数。
+	$@：同$*。
+	$$：存放当前进程的进程号。
+	$?：存放最后一个执行完的命令或程序的退出状态编号，0表示成功，1表示有错误。
+	参数
+		Shell程序运行时可以指定多个参数，参数之间用空格分开，程序中引用参数的方法为$1、$2、$3等，其中“$1”为第一个参数，“$2”为第二个参数，依次类推。
+			
+		
+
+			
+		
+shell脚本中的if 参数-a至-z:  https://blog.csdn.net/shenhuxi_yu/article/details/53047012
+
+	shell中判断前一个命令是否执行成功
+		if [ $? -ne 0 ]; then
+			echo "fail"
+		else
+			echo "success"
+		fi
+
+shell中：
+
+	-eq　　等于
+
+	-ne　　不等于
+
+	-gt　　大于
+
+	-lt　　小于
+
+	ge　　大于等于
+
+	le　　小于等于
+		
+每一条基本命令执行后都有一个返回码，该返回码是用$?表示，执行成功的返回码是0，例如：
+
+	if [ $? -ne 0 ];then
+		上一命令执行失败时的操作
+
+	else
+		上一命令执行成功时的操作
+	fi
+
+
+
+	
+在linux里，source、sh、bash、./都可以执行shell script文件
+	1、source
+
+		source a.sh
+		在当前shell内去读取、执行a.sh，而a.sh不需要有"执行权限"
+
+		source命令可以简写为"."
+
+		. a.sh
+		注意：中间是有空格的。
+	 
+	2、sh/bash
+
+		sh a.sh
+		bash a.sh
+		都是打开一个subshell去读取、执行a.sh，而a.sh不需要有"执行权限"
+
+		通常在subshell里运行的脚本里设置变量，不会影响到父shell的。
+	 
+	3、./
+
+		./a.sh
+		#bash: ./a.sh: 权限不够
+		chmod +x a.sh
+		./a.sh
+		打开一个subshell去读取、执行a.sh，但a.sh需要有"执行权限"
+
+		可以用chmod +x添加执行权限
+			
+			
+			
+local
+global
+关于局部变量和全局变量： 
+（1）shell 脚本中定义的变量是global的，作用域从被定义的地方开始，一直到shell结束或者被显示删除的地方为止。 
+（2）shell函数定义的变量也是global的，其作用域从 函数被调用执行变量的地方 开始，到shell或结束或者显示删除为止。函数定义的变量可以是local的，其作用域局限于函数内部。但是函数的参数是local的。 
+（3）如果局部变量和全局变量名字相同，那么在这个函数内部，会使用局部变量。	
+	
+	
+	
+shift命令用于对参数的移动(左移)，通常用于在不知道传入参数个数的情况下依次遍历每个参数然后进行相应处理（常见于Linux中各种程序的启动脚本）。
+每次运行shift(不带参数的),销毁一个参数，后面的参数前移
+Shift命令一次移动参数的个数由其所带的参数指定。
+例如当shell程序处理完前九个命令行参数后，可以使用shift 9命令把$10移到$1
+	
+	
+ tr（translate缩写）主要用于删除文件中的控制字符，或进行字符转换。
+	
+	
+	
+	
+	
+函数
+	demoFun(){
+    echo "这是我的第一个 shell 函数!"
+}
+
+
+	
+	
+	
+	
+	
+条件语句  ：
+		
+	if-then
+		if command
+		then
+			command
+		fi
+
+	if-then-else
+		if command
+		then
+			command
+		else
+			command
+		fi
+
+	if-then-else
+		if command
+		then
+			command
+		elif command
+		then
+			command
+		fi
+
+	
+循环语句
+https://blog.csdn.net/taiyang1987912/article/details/38929069
+	当型循环：while循环、for循环  	直到型循环：until
+	
+	for循环：
+		for varible1 in {1..5}
+		#for varible1 in 1 2 3 4 5
+		do
+			 echo "Hello, Welcome $varible1 times "
+		done
+	
+		跳步：
+		for i in {1..100..2}
+		do
+			echo "Hello,Welcome $i times"
+		done
+	
+		类c:
+		sum=0
+		for(( i = 1; i <= 100; i = i + 2 ))
+		do
+			 let "sum += i"
+		done
+
+		echo "sum=$sum"
+	
+	while循环:
+		sum=0
+		i=1
+		while(( i <= 100 ))
+		do
+			 let "sum+=i"
+			 let "i += 2"   
+		done
+
+		echo "sum=$sum"
+		
+	until 循环执行一系列命令直至条件为 true 时停止。
+	until condition
+	do
+		command
+	done
+	
+	 case语句为多选择语句。可以用case语句匹配一个值与一个模式，如果匹配成功，执行相匹配的命令。
+	
+	
+	
+	
