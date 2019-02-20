@@ -1,0 +1,135 @@
+基础：
+	数据类型
+	  list = []
+		len(list)
+		list.append("li")
+		list.pop()   //尾部删除
+		list.extend(["1","2"])  //末尾增加数据
+		list.remove("li")       //删除特定数据
+		list.insert(0,"li")
+		
+		
+
+
+
+
+		
+			
+	
+	
+	
+基本模块：
+	
+	re
+		Rule_Regex = re.compile(r'rule')
+		Match = Rule_Regex.search("Str")
+		Match.groups()
+		
+		字符|称为“管道”。希望匹配许多表达式中的一个时，就可以使用它。例如，正则表达式r'Batman|Tina Fey'将匹配'Batman'或'Tina Fey'。
+		?:零次或一次(声明非贪心匹配)
+		*:匹配零次或多次
+		+（加号）:匹配一次或多次
+		.（句点）字符称为“通配符”。它匹配除了换行之外的所有字符
+		(Hi){3,5}  : 匹配特定次数,例匹配Hi 3-5次
+		
+		
+	os	
+		os.getcwd():得前工作路径的字符串
+		os.makedirs():创建新文件夹
+		os.path.abspath(path)将返回参数的绝对路径的字符串。这是将相对路径转换为绝对路径的简便方法。
+		os.unlink(path)将删除path 处的文件。
+		os.rmdir(path)将删除path 处的文件夹。该文件夹必须为空，其中没有任何文件和文件夹。
+		shutil.rmtree(path)将删除path 处的文件夹，它包含的所有文件和文件夹都会被删除。
+		
+		
+			
+	zip
+		zip([iterable, ...])
+		返回一个对象
+		zip(*ziped) : 相反操作，解包
+		
+	
+	map
+		map(function, iterable, ...)
+		Python 2.x 返回列表，Python 3.x 返回迭代器
+		
+	
+	
+	
+	ssl
+		通过ssl verify：ssl._create_default_https_context = ssl._create_unverified_context
+		
+		
+	enumerate	
+		enumerate(sequence, [start=0])：sequence -- 一个序列、迭代器或其他支持迭代对象。start -- 下标起始位置。
+		反向遍历 ：enumerate(seq[::-1])
+		
+		
+				
+	Ascii
+		ord() ：字符转Ascii
+		chr() ：Ascii转字符
+		
+	进制
+		十进制数为：dec
+		bin(dec)：转换为二进制
+		oct(dec):转换为八进制 
+		hex(dec):转换为十六进制
+	
+	
+	
+库：
+	requests
+		req = requests.request('GET', 'http://httpbin.org/get')
+		请求方法：get、post
+		r=requests.get()
+		requests.Session(): 会话对象requests.Session能够跨请求地保持某些参数，比如cookies
+		r.status_code:获取响应代码
+		
+
+
+
+		
+		
+		
+		
+		
+推导式：
+	列表推导式
+	
+	
+	
+	字典推导式
+	
+	
+	
+	集合推导式
+	
+
+	
+	
+
+
+	
+
+
+	
+
+框架
+
+	django
+		创建项目：django-admin startproject HelloWorld
+		项目的目录结构：
+			|-- HelloWorld
+			|   |-- __init__.py
+			|   |-- settings.py
+			|   |-- urls.py
+			|   `-- wsgi.py
+			`-- manage.py
+			
+		HelloWorld: 项目的容器。
+		manage.py: 一个实用的命令行工具，可让你以各种方式与该 Django 项目进行交互。
+		HelloWorld/__init__.py: 一个空文件，告诉 Python 该目录是一个 Python 包。
+		HelloWorld/settings.py: 该 Django 项目的设置/配置。
+		HelloWorld/urls.py: 该 Django 项目的 URL 声明; 一份由 Django 驱动的网站"目录"。
+		HelloWorld/wsgi.py: 一个 WSGI 兼容的 Web 服务器的入口，以便运行你的项目。
