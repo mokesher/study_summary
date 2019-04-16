@@ -9,17 +9,32 @@
 		list.insert(0,"li")
 		
 		
+	迭代器iterator
+		__iter__
+	
+	生成器generator
+		yeild
 
+return self:返回的是类的实例	<class '__main__.Fun'>
 
-
-
-		
-			
 	
 	
 	
 基本模块：
-	
+	json
+		dumps:把数据类型转换为字符串
+		loads:把字符串转换为数据类型
+		
+		dump:把数据类型转换为字符串并存储在文件中
+			json.dump(data,w)
+		load:把文件打开从字符串转换为数据类型
+		
+	yaml
+		object_pairs_hook=OrderDict:读取json保持有序
+		default_flow_style=False:保持原格式
+	time
+		time.strftime('%Y-%M-%D %H:%M:%S,time.localtime(time.time())')
+		
 	re
 		Rule_Regex = re.compile(r'rule')
 		Match = Rule_Regex.search("Str")
@@ -31,30 +46,36 @@
 		+（加号）:匹配一次或多次
 		.（句点）字符称为“通配符”。它匹配除了换行之外的所有字符
 		(Hi){3,5}  : 匹配特定次数,例匹配Hi 3-5次
-		
+	
+	sys
+		sys.argv:从程序外部向程序内传递参数，列表[]格式，第一个参数argv[0]为文件名
+		sys.path:获取指定模块搜索路径的字符串集合，可以将模块写好放到路径下，import可以正确找到
+		sys.setdefaultenconding("utf-8"):设置系统默认编码
+		sys.exit():0正常退出
 		
 	os	
+		os.system():调用命令行
 		os.getcwd():得前工作路径的字符串
 		os.makedirs():创建新文件夹
 		os.path.abspath(path)将返回参数的绝对路径的字符串。这是将相对路径转换为绝对路径的简便方法。
 		os.unlink(path)将删除path 处的文件。
 		os.rmdir(path)将删除path 处的文件夹。该文件夹必须为空，其中没有任何文件和文件夹。
 		shutil.rmtree(path)将删除path 处的文件夹，它包含的所有文件和文件夹都会被删除。
+		os.path.exists(path) :如果path存在返回True
+		os.getenv("path"):获取某个环境变量值
+		os.path.dirname :测试脚本所在位置，结合os.path.abspath()使用
 		
-		
-			
+	readline():每运行一次读取一行
+	readlines():读取所有行
+	
 	zip
 		zip([iterable, ...])
 		返回一个对象
 		zip(*ziped) : 相反操作，解包
 		
-	
 	map
 		map(function, iterable, ...)
 		Python 2.x 返回列表，Python 3.x 返回迭代器
-		
-	
-	
 	
 	ssl
 		通过ssl verify：ssl._create_default_https_context = ssl._create_unverified_context
@@ -75,25 +96,66 @@
 		bin(dec)：转换为二进制
 		oct(dec):转换为八进制 
 		hex(dec):转换为十六进制
-	
+	replace
+		str.replace(old,new[,max])
+			max -- 替换不超过max次
+			
 	
 	
 库：
 	requests
-		req = requests.request('GET', 'http://httpbin.org/get')
-		请求方法：get、post
-		r=requests.get()
-		requests.Session(): 会话对象requests.Session能够跨请求地保持某些参数，比如cookies
-		r.status_code:获取响应代码
+	方法
+		requests.request(get|post|method,url,*args,**kwargs)
+		requests.get()
+		requests.head()
+		requests.post()
+		requests.put()
+		requests.patch()
+		requests.delete()
+	*args
+		verify=False :取消认证
+	**kwargs
+		headers :请求头，字典格式{}
+		proxies:代理，字典格式{}
+		data:post请求提交的参数，字典格式{}
+	response = requests.get(url)
+		response属性
+		r.status_code :状态码
+		r.encoding :
+		r.apparent_encoding
+		r.text  :unicode数据格式
+		r.content :bytes型二进制数据
 		
-
-
-
+	requests.Session() :会话对象，跨请求保持某些参数，比如cookie
+	requests.package.urllib3.disable_warnings():忽略警告
+	
+	url传递参数
+		payload = {'wd':'moke','r':100}
+		r = requests.get("http://www.baidu.com/s",params=payload)
+	
+	身份认证
+		基本身份认证（HTTP Basic Auth):
+			r = requests.get(url,auth=HTTPBasicAuth('usr','passwd'))
+			r = requests.get(url,auth=('usr','passwd')) #简写
+		摘要式认证
+			requests.get(url,auth=HTTPDigestAuth('user','pass')
+			
+https://blog.csdn.net/shanzhizi/article/details/50903748
 		
 		
-		
-		
-		
+	xpath、BeautifulSoup
+	from bs4 import BeautifulSoup
+	实例化：soup = BeautifulSoup(html,fromEncoding="GBK")
+	方法
+		soup.prettify():纠正HTML格式
+		soup.find_add(name,attrs,recursive,string,**kwargs)
+	属性
+		Tag:
+			soup.title.name
+			soup.attrs:
+		soup.title
+		soup.title.string
+	
 推导式：
 	列表推导式
 	

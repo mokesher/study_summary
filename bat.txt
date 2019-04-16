@@ -1,0 +1,74 @@
+@echo off:取消回显
+
+set var=%1 :设置变量为args第一个参数
+echo %var% :调用变量var
+
+cd
+	/d :切换到其他盘必须加参数d
+	
+del
+	删除文件，不能删目录
+	/f :删除只读文件
+	/q :强制
+
+rmdir
+	删除目录
+	/s
+	/q
+	
+xcopy
+	/e
+	/h
+	/y
+	
+copy
+	/y
+	
+wegt
+	-p :下载到哪个目录
+	例：wget -p downpath filepath  下载文件到downpath
+
+goto
+	跳转
+	例：goto exit_error
+		: exit_error	
+			echo "A"
+md
+	建立文件夹
+	md E:\file
+	
+exit
+	exit /b 0 :成功状态退出
+	blog.csdn.net/westkingwy/article/details/78483334
+	
+exist
+	exist path :文件夹是否存在
+	
+pause
+	暂停
+
+rem
+	rem 1111
+	::注释
+	
+7z
+	7z a archive.zip *  :打包所有文件
+	a:添加文件打包
+	d:从压缩档案删除文件
+	7z x 1.zip -o/tmp
+	x:解压到路径path
+		-o：指定释放文件的输出文件夹，此参数只能和释放命令配合使用
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
