@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_tools.objectteams_zh"
+	label="Babel Language Pack for tools.objectteams in Chinese (Simplified) (5.51%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for tools.objectteams in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.objectteams.eclipse.monitor.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2288" install-size="2288" />
+	<plugin fragment="true" id="org.eclipse.objectteams.otdt.debug.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2671" install-size="2671" />
+	<plugin fragment="true" id="org.eclipse.objectteams.otdt.refactoring.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3302" install-size="3302" />
+	<plugin fragment="true" id="org.eclipse.objectteams.otdt.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5256" install-size="5256" />
+</feature>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_webtools.jsf_zh"
+	label="Babel Language Pack for webtools.jsf in Chinese (Simplified) (39.7%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for webtools.jsf in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.jsf.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1416" install-size="1416" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.apache.trinidad.tagsupport.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3382" install-size="3382" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.common.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2822" install-size="2822" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.common.runtime.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.common.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5178" install-size="5178" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="6925" install-size="6925" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.facelet.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1699" install-size="1699" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.facelet.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.facesconfig.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="7124" install-size="7124" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.facesconfig.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="7519" install-size="7519" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.standard.tagsupport.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3681" install-size="3681" />
+	<plugin fragment="true" id="org.eclipse.jst.jsf.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5210" install-size="5210" />
+	<plugin fragment="true" id="org.eclipse.jst.pagedesigner.jsf.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5709" install-size="5709" />
+	<plugin fragment="true" id="org.eclipse.jst.pagedesigner.jsp.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1387" install-size="1387" />
+	<plugin fragment="true" id="org.eclipse.jst.pagedesigner.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="11065" install-size="11065" />
+</feature>

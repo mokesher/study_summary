@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_webtools.dali_zh"
+	label="Babel Language Pack for webtools.dali in Chinese (Simplified) (18.4%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for webtools.dali in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.jpt.common.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1383" install-size="1383" />
+	<plugin fragment="true" id="org.eclipse.jpt.common.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1380" install-size="1380" />
+	<plugin fragment="true" id="org.eclipse.jpt.common.eclipselink.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.jpt.common.eclipselink.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.jpt.common.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2037" install-size="2037" />
+	<plugin fragment="true" id="org.eclipse.jpt.common.utility.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1382" install-size="1382" />
+	<plugin fragment="true" id="org.eclipse.jpt.dbws.eclipselink.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.jpt.dbws.eclipselink.core.gen.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1387" install-size="1387" />
+	<plugin fragment="true" id="org.eclipse.jpt.dbws.eclipselink.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1917" install-size="1917" />
+	<plugin fragment="true" id="org.eclipse.jpt.doc.isv.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1382" install-size="1382" />
+	<plugin fragment="true" id="org.eclipse.jpt.doc.user.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1440" install-size="1440" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1383" install-size="1383" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1416" install-size="1416" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.core.schemagen.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1385" install-size="1385" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.eclipselink.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.eclipselink.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.eclipselink.core.schemagen.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1391" install-size="1391" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.eclipselink.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1383" install-size="1383" />
+	<plugin fragment="true" id="org.eclipse.jpt.jaxb.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2197" install-size="2197" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1382" install-size="1382" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1854" install-size="1854" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.db.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1378" install-size="1378" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.db.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.eclipselink.branding.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1387" install-size="1387" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.eclipselink.core.ddlgen.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1389" install-size="1389" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.eclipselink.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.eclipselink.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3676" install-size="3676" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.gen.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1378" install-size="1378" />
+	<plugin fragment="true" id="org.eclipse.jpt.jpa.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="8231" install-size="8231" />
+</feature>

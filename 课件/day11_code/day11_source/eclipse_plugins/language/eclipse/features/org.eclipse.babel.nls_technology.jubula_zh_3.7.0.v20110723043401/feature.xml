@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_technology.jubula_zh"
+	label="Babel Language Pack for technology.jubula in Chinese (Simplified) (11.55%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for technology.jubula in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.jubula.app.cmd.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2175" install-size="2175" />
+	<plugin fragment="true" id="org.eclipse.jubula.app.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2550" install-size="2550" />
+	<plugin fragment="true" id="org.eclipse.jubula.client.archive.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2291" install-size="2291" />
+	<plugin fragment="true" id="org.eclipse.jubula.client.cmd.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2213" install-size="2213" />
+	<plugin fragment="true" id="org.eclipse.jubula.client.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2474" install-size="2474" />
+	<plugin fragment="true" id="org.eclipse.jubula.client.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4910" install-size="4910" />
+	<plugin fragment="true" id="org.eclipse.jubula.toolkit.provider.base.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2875" install-size="2875" />
+	<plugin fragment="true" id="org.eclipse.jubula.toolkit.provider.concrete.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2286" install-size="2286" />
+	<plugin fragment="true" id="org.eclipse.jubula.toolkit.provider.html.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2222" install-size="2222" />
+	<plugin fragment="true" id="org.eclipse.jubula.tools.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3632" install-size="3632" />
+</feature>

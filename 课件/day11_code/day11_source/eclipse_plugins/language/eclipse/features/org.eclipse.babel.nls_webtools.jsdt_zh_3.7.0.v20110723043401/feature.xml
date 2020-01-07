@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_webtools.jsdt_zh"
+	label="Babel Language Pack for webtools.jsdt in Chinese (Simplified) (80.48%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for webtools.jsdt in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="20921" install-size="20921" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.core.tests.compiler.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1392" install-size="1392" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.core.tests.model.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="21830" install-size="21830" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.debug.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3018" install-size="3018" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.debug.rhino.debugger.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1615" install-size="1615" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.debug.rhino.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3183" install-size="3183" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.debug.rhino.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4411" install-size="4411" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.debug.transport.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1610" install-size="1610" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.debug.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5457" install-size="5457" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.doc.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1414" install-size="1414" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.manipulation.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4069" install-size="4069" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.support.firefox.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1430" install-size="1430" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.support.ie.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.wst.jsdt.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="131189" install-size="131189" />
+</feature>

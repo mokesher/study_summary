@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_rt.equinox_zh"
+	label="Babel Language Pack for rt.equinox in Chinese (Simplified) (99.27%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for rt.equinox in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.core.resources.jmx.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2248" install-size="2248" />
+	<plugin fragment="true" id="org.eclipse.equinox.initializer.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2526" install-size="2526" />
+	<plugin fragment="true" id="org.eclipse.equinox.jmx.client.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4743" install-size="4743" />
+	<plugin fragment="true" id="org.eclipse.equinox.jmx.common.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2323" install-size="2323" />
+	<plugin fragment="true" id="org.eclipse.equinox.jmx.server.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2986" install-size="2986" />
+	<plugin fragment="true" id="org.eclipse.equinox.jmx.vm.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2650" install-size="2650" />
+	<plugin fragment="true" id="org.eclipse.equinox.preferences.jmx.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2424" install-size="2424" />
+	<plugin fragment="true" id="org.eclipse.equinox.region.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1605" install-size="1605" />
+	<plugin fragment="true" id="org.eclipse.osgi.jmx.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2961" install-size="2961" />
+	<plugin fragment="true" id="org.eclipse.swt.jmx.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2161" install-size="2161" />
+</feature>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_technology.egit_zh"
+	label="Babel Language Pack for technology.egit in Chinese (Simplified) (16.84%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for technology.egit in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.egit.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1896" install-size="1896" />
+	<plugin fragment="true" id="org.eclipse.egit.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="6472" install-size="6472" />
+</feature>

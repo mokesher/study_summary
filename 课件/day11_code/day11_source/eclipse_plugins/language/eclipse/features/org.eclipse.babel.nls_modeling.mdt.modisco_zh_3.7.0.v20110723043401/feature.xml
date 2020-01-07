@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_modeling.mdt.modisco_zh"
+	label="Babel Language Pack for modeling.mdt.modisco in Chinese (Simplified) (5.65%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for modeling.mdt.modisco in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.browser.custom.editor.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2655" install-size="2655" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.browser.custom.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2560" install-size="2560" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.browser.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2512" install-size="2512" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.common.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2559" install-size="2559" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.discoverymanager.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2246" install-size="2246" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.facet.edit.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1636" install-size="1636" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.facet.editor.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1448" install-size="1448" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.facet.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2352" install-size="2352" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.query.edit.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1697" install-size="1697" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.query.editor.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1448" install-size="1448" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.infra.query.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2924" install-size="2924" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.java.discoverer.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2037" install-size="2037" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.usecase.simpletransformationschain.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2332" install-size="2332" />
+	<plugin fragment="true" id="org.eclipse.gmt.modisco.workflow.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2168" install-size="2168" />
+	<plugin fragment="true" id="org.eclipse.modisco.infra.discovery.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2347" install-size="2347" />
+	<plugin fragment="true" id="org.eclipse.modisco.java.discoverer.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2431" install-size="2431" />
+	<plugin fragment="true" id="org.eclipse.modisco.jee.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2048" install-size="2048" />
+	<plugin fragment="true" id="org.eclipse.modisco.util.atl.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1608" install-size="1608" />
+	<plugin fragment="true" id="org.eclipse.modisco.workflow.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2232" install-size="2232" />
+</feature>

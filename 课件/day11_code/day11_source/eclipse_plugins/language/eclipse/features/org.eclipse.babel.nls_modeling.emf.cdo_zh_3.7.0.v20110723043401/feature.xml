@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_modeling.emf.cdo_zh"
+	label="Babel Language Pack for modeling.emf.cdo in Chinese (Simplified) (25%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for modeling.emf.cdo in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.emf.cdo.dawn.examples.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.emf.cdo.dawn.sdk.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1380" install-size="1380" />
+	<plugin fragment="true" id="org.eclipse.emf.cdo.doc.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1377" install-size="1377" />
+	<plugin fragment="true" id="org.eclipse.emf.cdo.sdk.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1378" install-size="1378" />
+	<plugin fragment="true" id="org.eclipse.net4j.db.doc.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.net4j.doc.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1377" install-size="1377" />
+	<plugin fragment="true" id="org.eclipse.net4j.sdk.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1376" install-size="1376" />
+	<plugin fragment="true" id="org.eclipse.net4j.util.doc.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1378" install-size="1378" />
+</feature>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_technology.actf_zh"
+	label="Babel Language Pack for technology.actf in Chinese (Simplified) (4.46%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for technology.actf in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.actf.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1376" install-size="1376" />
+	<plugin fragment="true" id="org.eclipse.actf.model.flash.proxy.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2269" install-size="2269" />
+	<plugin fragment="true" id="org.eclipse.actf.model.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1688" install-size="1688" />
+	<plugin fragment="true" id="org.eclipse.actf.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2113" install-size="2113" />
+	<plugin fragment="true" id="org.eclipse.actf.util.vocab.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1490" install-size="1490" />
+	<plugin fragment="true" id="org.eclipse.actf.visualization.doc.isv.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.actf.visualization.engines.blind.html.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1534" install-size="1534" />
+	<plugin fragment="true" id="org.eclipse.actf.visualization.engines.blind.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1544" install-size="1544" />
+	<plugin fragment="true" id="org.eclipse.actf.visualization.eval.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2316" install-size="2316" />
+	<plugin fragment="true" id="org.eclipse.actf.visualization.gui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2121" install-size="2121" />
+	<plugin fragment="true" id="org.eclipse.actf.visualization.presentation.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1403" install-size="1403" />
+	<plugin fragment="true" id="org.eclipse.actf.visualization.ui.report.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1620" install-size="1620" />
+</feature>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_webtools.servertools_zh"
+	label="Babel Language Pack for webtools.servertools in Chinese (Simplified) (88.15%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for webtools.servertools in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.jst.server.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3554" install-size="3554" />
+	<plugin fragment="true" id="org.eclipse.jst.server.generic.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3715" install-size="3715" />
+	<plugin fragment="true" id="org.eclipse.jst.server.generic.jboss.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1853" install-size="1853" />
+	<plugin fragment="true" id="org.eclipse.jst.server.generic.jonas.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1840" install-size="1840" />
+	<plugin fragment="true" id="org.eclipse.jst.server.generic.oc4j.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1962" install-size="1962" />
+	<plugin fragment="true" id="org.eclipse.jst.server.generic.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3251" install-size="3251" />
+	<plugin fragment="true" id="org.eclipse.jst.server.installable.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1450" install-size="1450" />
+	<plugin fragment="true" id="org.eclipse.jst.server.preview.adapter.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2999" install-size="2999" />
+	<plugin fragment="true" id="org.eclipse.jst.server.tomcat.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5841" install-size="5841" />
+	<plugin fragment="true" id="org.eclipse.jst.server.tomcat.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3687" install-size="3687" />
+	<plugin fragment="true" id="org.eclipse.jst.server.ui.doc.user.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1385" install-size="1385" />
+	<plugin fragment="true" id="org.eclipse.jst.server.ui.infopop.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1451" install-size="1451" />
+	<plugin fragment="true" id="org.eclipse.jst.server.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2893" install-size="2893" />
+	<plugin fragment="true" id="org.eclipse.jst.server.websphere.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1714" install-size="1714" />
+	<plugin fragment="true" id="org.eclipse.servertools.doc.isv.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1381" install-size="1381" />
+	<plugin fragment="true" id="org.eclipse.wst.internet.monitor.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2980" install-size="2980" />
+	<plugin fragment="true" id="org.eclipse.wst.internet.monitor.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3514" install-size="3514" />
+	<plugin fragment="true" id="org.eclipse.wst.server.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4013" install-size="4013" />
+	<plugin fragment="true" id="org.eclipse.wst.server.discovery.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2898" install-size="2898" />
+	<plugin fragment="true" id="org.eclipse.wst.server.http.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2979" install-size="2979" />
+	<plugin fragment="true" id="org.eclipse.wst.server.http.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2745" install-size="2745" />
+	<plugin fragment="true" id="org.eclipse.wst.server.preview.adapter.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3202" install-size="3202" />
+	<plugin fragment="true" id="org.eclipse.wst.server.preview.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2969" install-size="2969" />
+	<plugin fragment="true" id="org.eclipse.wst.server.ui.doc.user.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1414" install-size="1414" />
+	<plugin fragment="true" id="org.eclipse.wst.server.ui.infopop.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1449" install-size="1449" />
+	<plugin fragment="true" id="org.eclipse.wst.server.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="8570" install-size="8570" />
+</feature>

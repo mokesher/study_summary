@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_rt.equinox.p2_zh"
+	label="Babel Language Pack for rt.equinox.p2 in Chinese (Simplified) (22.2%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for rt.equinox.p2 in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.equinox.frameworkadmin.equinox.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1440" install-size="1440" />
+	<plugin fragment="true" id="org.eclipse.equinox.frameworkadmin.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1424" install-size="1424" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.artifact.repository.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2654" install-size="2654" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.console.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1381" install-size="1381" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.director.app.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.director.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2441" install-size="2441" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.directorywatcher.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1391" install-size="1391" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.discovery.compatibility.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2800" install-size="2800" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.discovery.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.engine.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2472" install-size="2472" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.examples.rcp.cloud.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1508" install-size="1508" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.examples.rcp.discovery.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1512" install-size="1512" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.examples.rcp.sdkbundlevisibility.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3066" install-size="3066" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.extensionlocation.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1389" install-size="1389" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.garbagecollector.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1390" install-size="1390" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.installer.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2959" install-size="2959" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.jarprocessor.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1387" install-size="1387" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.metadata.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1382" install-size="1382" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.metadata.repository.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2653" install-size="2653" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.operations.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2430" install-size="2430" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.publisher.eclipse.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2503" install-size="2503" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.publisher.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2477" install-size="2477" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ql.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.reconciler.dropins.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1390" install-size="1390" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.repository.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2974" install-size="2974" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.repository.tools.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3688" install-size="3688" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.tests.discovery.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1419" install-size="1419" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.tests.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1382" install-size="1382" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.touchpoint.eclipse.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1390" install-size="1390" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.touchpoint.natives.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2663" install-size="2663" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.transport.ecf.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2625" install-size="2625" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ui.admin.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2840" install-size="2840" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ui.admin.rcp.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2808" install-size="2808" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ui.discovery.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3419" install-size="3419" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ui.importexport.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2952" install-size="2952" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3910" install-size="3910" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ui.sdk.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2969" install-size="2969" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.ui.sdk.scheduler.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3237" install-size="3237" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.updatechecker.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1385" install-size="1385" />
+	<plugin fragment="true" id="org.eclipse.equinox.p2.updatesite.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3091" install-size="3091" />
+	<plugin fragment="true" id="org.eclipse.equinox.simpleconfigurator.manipulator.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1396" install-size="1396" />
+	<plugin fragment="true" id="org.eclipse.equinox.simpleconfigurator.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1386" install-size="1386" />
+</feature>

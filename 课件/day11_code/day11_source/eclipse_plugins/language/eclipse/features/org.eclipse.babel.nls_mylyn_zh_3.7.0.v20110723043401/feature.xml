@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_mylyn_zh"
+	label="Babel Language Pack for mylyn in Chinese (Simplified) (50.63%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="3.7.0.v20110723043401">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for mylyn in Chinese (Simplified)</description>
+	<plugin fragment="true" id="org.eclipse.cdt.mylyn.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2667" install-size="2667" />
+	<plugin fragment="true" id="org.eclipse.mylyn.bugzilla.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5005" install-size="5005" />
+	<plugin fragment="true" id="org.eclipse.mylyn.bugzilla.ide.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1419" install-size="1419" />
+	<plugin fragment="true" id="org.eclipse.mylyn.bugzilla.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="7019" install-size="7019" />
+	<plugin fragment="true" id="org.eclipse.mylyn.builds.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1382" install-size="1382" />
+	<plugin fragment="true" id="org.eclipse.mylyn.builds.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1380" install-size="1380" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2691" install-size="2691" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.identity.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1383" install-size="1383" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.net.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2523" install-size="2523" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.notifications.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2645" install-size="2645" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.repositories.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.screenshots.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3103" install-size="3103" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.soap.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1382" install-size="1382" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.team.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3506" install-size="3506" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4852" install-size="4852" />
+	<plugin fragment="true" id="org.eclipse.mylyn.commons.xmlrpc.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1383" install-size="1383" />
+	<plugin fragment="true" id="org.eclipse.mylyn.context.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.mylyn.context.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="7043" install-size="7043" />
+	<plugin fragment="true" id="org.eclipse.mylyn.cvs.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1380" install-size="1380" />
+	<plugin fragment="true" id="org.eclipse.mylyn.discovery.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3188" install-size="3188" />
+	<plugin fragment="true" id="org.eclipse.mylyn.discovery.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3307" install-size="3307" />
+	<plugin fragment="true" id="org.eclipse.mylyn.git.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.mylyn.git.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.mylyn.help.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1410" install-size="1410" />
+	<plugin fragment="true" id="org.eclipse.mylyn.htmltext.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1606" install-size="1606" />
+	<plugin fragment="true" id="org.eclipse.mylyn.hudson.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1381" install-size="1381" />
+	<plugin fragment="true" id="org.eclipse.mylyn.hudson.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.mylyn.ide.ant.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2447" install-size="2447" />
+	<plugin fragment="true" id="org.eclipse.mylyn.ide.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1595" install-size="1595" />
+	<plugin fragment="true" id="org.eclipse.mylyn.java.tasks.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2593" install-size="2593" />
+	<plugin fragment="true" id="org.eclipse.mylyn.java.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4018" install-size="4018" />
+	<plugin fragment="true" id="org.eclipse.mylyn.monitor.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2745" install-size="2745" />
+	<plugin fragment="true" id="org.eclipse.mylyn.monitor.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2437" install-size="2437" />
+	<plugin fragment="true" id="org.eclipse.mylyn.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1374" install-size="1374" />
+	<plugin fragment="true" id="org.eclipse.mylyn.oslc.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1380" install-size="1380" />
+	<plugin fragment="true" id="org.eclipse.mylyn.oslc.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2414" install-size="2414" />
+	<plugin fragment="true" id="org.eclipse.mylyn.pde.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2956" install-size="2956" />
+	<plugin fragment="true" id="org.eclipse.mylyn.resources.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2901" install-size="2901" />
+	<plugin fragment="true" id="org.eclipse.mylyn.tasks.bugs.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3762" install-size="3762" />
+	<plugin fragment="true" id="org.eclipse.mylyn.tasks.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5325" install-size="5325" />
+	<plugin fragment="true" id="org.eclipse.mylyn.tasks.search.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="5813" install-size="5813" />
+	<plugin fragment="true" id="org.eclipse.mylyn.tasks.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="21014" install-size="21014" />
+	<plugin fragment="true" id="org.eclipse.mylyn.team.cvs.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="2493" install-size="2493" />
+	<plugin fragment="true" id="org.eclipse.mylyn.team.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4926" install-size="4926" />
+	<plugin fragment="true" id="org.eclipse.mylyn.trac.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3771" install-size="3771" />
+	<plugin fragment="true" id="org.eclipse.mylyn.trac.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3848" install-size="3848" />
+	<plugin fragment="true" id="org.eclipse.mylyn.versions.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1381" install-size="1381" />
+	<plugin fragment="true" id="org.eclipse.mylyn.versions.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1380" install-size="1380" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.confluence.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1395" install-size="1395" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.confluence.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1430" install-size="1430" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="4469" install-size="4469" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.help.sdk.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1388" install-size="1388" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.help.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1387" install-size="1387" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.mediawiki.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1394" install-size="1394" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.mediawiki.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1444" install-size="1444" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.tasks.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="3030" install-size="3030" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.textile.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1392" install-size="1392" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.textile.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1453" install-size="1453" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.tracwiki.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1393" install-size="1393" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.tracwiki.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1417" install-size="1417" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.twiki.core.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1391" install-size="1391" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.twiki.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="1440" install-size="1440" />
+	<plugin fragment="true" id="org.eclipse.mylyn.wikitext.ui.nl_zh" unpack="false" version="3.7.0.v20110723043401" download-size="6754" install-size="6754" />
+</feature>
