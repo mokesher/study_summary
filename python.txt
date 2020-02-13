@@ -65,6 +65,24 @@ return self:返回的是类的实例	<class '__main__.Fun'>
 		os.getenv("path"):获取某个环境变量值
 		os.path.dirname :测试脚本所在位置，结合os.path.abspath()使用
 		
+		os.system():执行shell命令，无返回值
+		os.popen(cmd,mode='r',buffering=-1)：从命令cmd打开一个管道，返回值是连接管道的文件对象，通过该对象，读写
+			cmd:执行命令
+			mode:模式权限，r,w
+			bufseze:缓冲区大小，0无缓冲，1行缓冲，负数系统默认值
+		
+		commands.getstatusoutput():获取返回值和输出
+		
+		subprocess
+			result = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+			description = str(result.communicate()[0], encoding="utf-8")
+			return_code = result.wait()
+			if return_code == 0:
+				return True,description
+			return False,"failed"
+		
+		
+		
 	readline():每运行一次读取一行
 	readlines():读取所有行
 	
@@ -84,8 +102,6 @@ return self:返回的是类的实例	<class '__main__.Fun'>
 	enumerate	
 		enumerate(sequence, [start=0])：sequence -- 一个序列、迭代器或其他支持迭代对象。start -- 下标起始位置。
 		反向遍历 ：enumerate(seq[::-1])
-		
-		
 				
 	Ascii
 		ord() ：字符转Ascii
@@ -96,10 +112,35 @@ return self:返回的是类的实例	<class '__main__.Fun'>
 		bin(dec)：转换为二进制
 		oct(dec):转换为八进制 
 		hex(dec):转换为十六进制
+		
 	replace
 		str.replace(old,new[,max])
 			max -- 替换不超过max次
 			
+	import
+		https://blog.csdn.net/winycg/article/details/78512300
+	
+	zipfile: zipfile.ZipFile(file,mode,ZIP_DEFLAED)
+		https://segmentfault.com/a/1190000007967852
+		
+	yapf:format code工具
+		yapf -i x.py
+		
+	2to3.py
+		python 2to3.py -w test.py
+	
+	str()与repr()函数区别
+		repr:保留对象的数据类型信息
+		
+	chardet:查看字符编码
+	
+	Event:
+		set():信号标志为True
+		isSet():判断标志的状态
+		clear():清除Event对象内部的标志(设为False)
+		wait():信号标志为False，阻塞线程
+		
+	ast.literal_eval():解析为python对象(相比eval，更安全)
 	
 	
 库：
